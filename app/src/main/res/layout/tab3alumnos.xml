@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="50dp">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:onClick="abrirAlumno"
+                android:src="@drawable/daniel_opt"
+                android:tag="Daniel" />
+
+            <TextView
+                android:id="@+id/nombre1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@id/img1"
+                android:onClick="abrirAlumno"
+                android:tag="Daniel"
+                android:text="Daniel Borromeo"
+                android:textSize="30sp" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:onClick="llamarTelefono"
+                android:src="@drawable/phone_opt"
+                android:tag="686868686" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:onClick="abrirAlumno"
+                android:src="@drawable/daniela_opt"
+                android:tag="Daniela" />
+
+            <TextView
+                android:id="@+id/nombre2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@id/img2"
+                android:onClick="abrirAlumno"
+                android:tag="Daniela"
+                android:text="Daniela Borromea"
+                android:textSize="30sp" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:onClick="llamarTelefono"
+                android:src="@drawable/phone_opt"
+                android:tag="120354741" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:onClick="abrirAlumno"
+                android:src="@drawable/gerard_opt"
+                android:tag="Gerard" />
+
+            <TextView
+                android:id="@+id/nombre3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@id/img3"
+                android:onClick="abrirAlumno"
+                android:tag="Gerard"
+                android:text="Gerardo Borromeo"
+                android:textSize="30sp" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:onClick="llamarTelefono"
+                android:src="@drawable/phone_opt"
+                android:tag="654987123" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:onClick="abrirAlumno"
+                android:src="@drawable/cesar_opt"
+                android:tag="Cesar" />
+
+            <TextView
+                android:id="@+id/nombre4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@id/img4"
+                android:onClick="abrirAlumno"
+                android:tag="Cesar"
+                android:text="Cesar Borromeo"
+                android:textSize="30sp" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:onClick="llamarTelefono"
+                android:src="@drawable/phone_opt"
+                android:tag="789789789" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                android:id="@+id/img5"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:onClick="abrirAlumno"
+                android:src="@drawable/larry_opt"
+                android:tag="Cesar" />
+
+            <TextView
+                android:id="@+id/nombre5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@id/img5"
+                android:onClick="abrirAlumno"
+                android:tag="Cesar"
+                android:text="Larry Borromeo"
+                android:textSize="30sp" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:onClick="llamarTelefono"
+                android:src="@drawable/phone_opt"
+                android:tag="456456456" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                android:id="@+id/img6"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:onClick="abrirAlumno"
+                android:src="@drawable/jaime_opt"
+                android:tag="Jaime" />
+
+            <TextView
+                android:id="@+id/nombre6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@id/img6"
+                android:onClick="abrirAlumno"
+                android:tag="Jaime"
+                android:text="Jaime Borromeo"
+                android:textSize="30sp" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:onClick="llamarTelefono"
+                android:src="@drawable/phone_opt"
+                android:tag="123123123" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                android:id="@+id/img7"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:onClick="abrirAlumno"
+                android:src="@drawable/jaime_opt"
+                android:tag="Jaime" />
+
+            <TextView
+                android:id="@+id/nombre7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@id/img7"
+                android:onClick="abrirAlumno"
+                android:tag="Jaime"
+                android:text="Carlos Borromeo"
+                android:textSize="30sp" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:onClick="llamarTelefono"
+                android:src="@drawable/phone_opt"
+                android:tag="987654321" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                android:id="@+id/img8"
+                android:layout_width="60dp"
+                android:layout_height="80dp"
+                android:onClick="abrirAlumno"
+                android:src="@drawable/jaime_opt"
+                android:tag="Jaime" />
+
+            <TextView
+                android:id="@+id/nombre8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@id/img8"
+                android:onClick="abrirAlumno"
+                android:tag="Jaime"
+                android:text="Carlos Borromeo"
+                android:textSize="30sp" />
+
+            <ImageButton
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:onClick="llamarTelefono"
+                android:src="@drawable/phone_opt"
+                android:tag="123456789" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

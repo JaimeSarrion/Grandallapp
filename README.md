@@ -15,7 +15,7 @@ Nuestro grupo decidió hacer un proyecto que pudiera ayudar a una [Organización
 ## Autores
 
 * **Lawrence Rider García** - *Programador* - [Larry](http://www.larryrider.es)
-* **Jaime Sarrión Sahuquillo** - *Programador* - [Jaime](#)
+* **Jaime Sarrión Sahuquillo** - *Programador* - [Jaime](https://github.com/JaimeSarrion)
 
 Puedes ver también la lista de los [contribuidores](https://github.com/larryrider/Grandallapp/contributors) que han participado en este proyecto.
 
